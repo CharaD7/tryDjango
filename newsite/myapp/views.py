@@ -8,7 +8,7 @@ def home(request):
     return HttpResponse("Hello, world. You're on the index page.")
 
 
-def menuItems(request, dish):
+def menu_items(request, dish):
     items = {
         'pasta': 'Pasta is a type of noodle made from the combination of...',
         'falafel': 'Falfel are deep fried patties or balls made from ...',
