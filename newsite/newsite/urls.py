@@ -17,11 +17,12 @@ Including another URLconf
 # from django.conf import settings
 # from django.conf.urls.static import static
 from django.contrib import admin
-from django.urls import path  # include
+from django.urls import include, path
 
 # from unfold_ui.sites import new_admin_site
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path("", include('myapp.urls')),
     # path("unfold-admin/", new_admin_site.urls), # <-- Unfold admin
 ]  # + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
