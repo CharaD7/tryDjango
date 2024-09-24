@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # 'unfold.apps.BasicAppConfig',
     'myapp.apps.MyappConfig',
+    'customer.apps.CustomerConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
