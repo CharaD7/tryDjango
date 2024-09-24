@@ -24,5 +24,6 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include('myapp.urls')),
+    path("", include('customer.urls')),
     # path("unfold-admin/", new_admin_site.urls), # <-- Unfold admin
 ]  # + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
