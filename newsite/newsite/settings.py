@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     # 'unfold.apps.BasicAppConfig',
     'myapp.apps.MyappConfig',
     'customer.apps.CustomerConfig',
+    'news.apps.NewsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
