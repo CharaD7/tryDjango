@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'myapp.apps.MyappConfig',
     'customer.apps.CustomerConfig',
     'news.apps.NewsConfig',
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
