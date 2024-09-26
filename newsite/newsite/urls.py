@@ -26,5 +26,6 @@ urlpatterns = [
     path("", include('myapp.urls')),
     path("", include('customer.urls')),
     path("", include('news.urls')),
+    path("", include('polls.urls')),
     # path("unfold-admin/", new_admin_site.urls), # <-- Unfold admin
 ]  # + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
