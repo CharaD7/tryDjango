@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # 'unfold.apps.BasicAppConfig',
+    'unfold',
     'myapp.apps.MyappConfig',
     'customer.apps.CustomerConfig',
     'news.apps.NewsConfig',
