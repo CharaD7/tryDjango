@@ -3,6 +3,7 @@ __pycache__
 
 # neovide log
 nohup.out
+*.log
 
 # virtual environment
 .venv
